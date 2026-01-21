@@ -4,7 +4,7 @@ public class CocheService {
 
     private CocheRepository cocheRepository;
 
-    public CocheService(CocheRepository cocheRepository) {
+    public CocheService() {
         this.cocheRepository = cocheRepository;
     }
 
