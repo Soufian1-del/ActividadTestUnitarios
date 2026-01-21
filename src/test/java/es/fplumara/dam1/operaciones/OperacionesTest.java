@@ -34,3 +34,5 @@ public class OperacionesTest {
         assertEquals("Nota fuera de rango", ex.getMessage());
     }
 }
+
+

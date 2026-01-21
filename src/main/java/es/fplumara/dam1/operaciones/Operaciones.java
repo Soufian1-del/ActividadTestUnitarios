@@ -24,7 +24,7 @@ public class Operaciones {
     /**
      * Calcula la media. Si no hay notas, lanza excepción.
      */
-    public static double media(double... notas) {
+    public static double media(double[] notas) {
         if (notas == null || notas.length == 0) {
             throw new IllegalArgumentException("No hay notas");
         }
