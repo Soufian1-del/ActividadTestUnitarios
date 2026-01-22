@@ -19,6 +19,8 @@ public class FacturaServiceTest {
         when(calculadora.sumar(100,21)).thenReturn(121);
         int resultado = service.totalConIva(100);
         assertEquals(121, resultado);
+        verify(calculadora,times(1)).sumar(100,21);
+        verifyNoMoreInteractions(calculadora);
     }
 
 
