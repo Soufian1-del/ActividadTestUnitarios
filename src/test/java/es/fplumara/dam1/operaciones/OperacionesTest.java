@@ -21,7 +21,7 @@ public class OperacionesTest {
             "9.0, SOBRESALIENTE",
             "10.0, SOBRESALIENTE"
     })
-    @DisplayName("Test para verificar las notas validas")
+    @DisplayName("Test para comprobar las notas validas")
     public void clasificacionNotasValidas(double nota, String resultadoEsperado){
         String resultado = Operaciones.calificacion(nota);
         assertEquals(resultado, resultadoEsperado);
